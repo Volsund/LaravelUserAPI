@@ -10,7 +10,7 @@ class PostLoginTest extends TestCase
     {
         $response = $this->postJson(
             '/api/login',
-            ['email' => 'edgaars@gmail.com', 'password' => '123123123']
+            ['email' => 'bob@gmail.com', 'password' => '123456']
         );
 
         $response
